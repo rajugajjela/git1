@@ -14,4 +14,3 @@ mul=$(( $a * $b))
 echo "mul:$mul"
 
 echo "All operations are completed"
-echo "shell scripting is completed"
