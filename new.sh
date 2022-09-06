@@ -10,7 +10,7 @@ echo "sum: $sum"
 diff=$(( $a - $b ))
 echo "diff: $diff"
 
-
+echo "All operations are completed"
 
 
 
