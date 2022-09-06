@@ -12,6 +12,8 @@ echo "diff: $diff"
 
 echo "All operations are completed"
 
+mul=$(( $a * $b))
+echo "mul:$mul"
 
 
 
