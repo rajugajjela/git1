@@ -17,4 +17,4 @@ echo "mul:$mul"
 
 echo "UPDATED"
 
-
+echo "another method added"
