@@ -9,4 +9,5 @@ if [ $age -ge 18 ]
 else
    echo "not eligible to vote"
    fi
+echo "HI"
 
