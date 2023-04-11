@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Execute Shell script') {
+            steps {
+                sh './new.sh'
+                echo "HI"
+                echo "Nani"
+            }
+        }
+    }
+}
