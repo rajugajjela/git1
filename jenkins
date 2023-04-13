@@ -7,7 +7,6 @@ pipeline {
                 sh './new.sh'
                 echo "HI"
                 echo "Nani"
-		sh './age.sh'
             }
         }
     }
