@@ -13,5 +13,10 @@ pipeline {
                 sh './new.sh' 
             } 
         } 
+        stage('Execute echo command') {
+            steps{
+                echo "Happy Diwali"
+            }
+        }
     }
 }
