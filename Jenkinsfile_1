@@ -11,6 +11,9 @@ pipeline {
                 }
             }
         }
+        stage ('run the sample script') {
+            sh './new.sh'
+        }
     }
 
     post {
