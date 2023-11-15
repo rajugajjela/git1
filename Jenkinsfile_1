@@ -12,18 +12,9 @@ pipeline {
             }
         }
         stage ('run the sample script') {
-            step {
+            steps {
             sh './new.sh'
              }
-        }
-    }
-
-    post {
-        success {
-            echo 'Pipeline succeeded! Ready for further actions...'
-        }
-        failure {
-            echo 'Pipeline failed! Take corrective actions...'
         }
     }
 }
