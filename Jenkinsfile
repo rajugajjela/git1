@@ -4,7 +4,7 @@ pipeline {
     stages { 
         stage ('Clone Git repository') { 
             steps { 
-
+                customWorkspace '/var/lib/jenkins/workspace/new'
                 git branch: 'master', url: 'https://github.com/rajugajjela/git1.git' 
             } 
         } 
