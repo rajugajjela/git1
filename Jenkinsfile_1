@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Custom Workspace') {
+            steps {
+                // Use the 'ws' step to set a custom workspace for this stage
+                ws('/var/lib/jenkins/workspace/new/') {
+                    echo "Building in a custom workspace"
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Pipeline succeeded! Ready for further actions...'
+        }
+        failure {
+            echo 'Pipeline failed! Take corrective actions...'
+        }
+    }
+}
