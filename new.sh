@@ -14,7 +14,3 @@ echo "All operations are completed"
 
 mul=$(( $a * $b))
 echo "mul:$mul"
-
-echo "UPDATED"
-echo "using jenkins"
-echo "Hello"
