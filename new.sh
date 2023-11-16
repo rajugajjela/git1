@@ -16,14 +16,4 @@ mul=$(( $a * $b))
 echo "mul:$mul"
 
 echo "UPDATED"
-
-echo "another method added"
-
 echo "using jenkins"
-
-
-echo "Hello New comment"
-echo "Echo command to check the poll SCM"
-echo "Checking poll SCM"
-echo "Hello"
-
