@@ -2,5 +2,3 @@ HOW ARE YOU
 Hii
 Hello
 Done
-New change for pollSCM with new
-Hello
