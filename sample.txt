@@ -1,3 +1,1 @@
-sample text file for test
-Hello
-Hello world program
+New changes
