@@ -3,4 +3,4 @@ echo "HEllo world"
 echo "Script for pipeline"
 echo "changes for simple.sh file"
 export My_Build_ID=1111
-echo "Variable=$My_Build_ID"
+
