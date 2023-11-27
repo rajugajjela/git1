@@ -14,7 +14,7 @@ if [ $count -eq 2 ]
    then
     echo "prime"
     else
-    echo "not prime"
+    echo "not primegthnj"
     fi
 
 
